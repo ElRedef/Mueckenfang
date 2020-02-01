@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hintergrund"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gang"
+    android:orientation="vertical" >
+
+	<FrameLayout android:id="@+id/frameLayout1"
+		android:layout_height="wrap_content" android:layout_width="match_parent">
+		<TextView android:layout_height="wrap_content" android:text="TextView"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/points" android:textColor="@color/gelb"
+			android:textStyle="bold"></TextView>
+		<TextView android:layout_height="wrap_content" android:text="TextView"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/round" android:gravity="right"
+			android:layout_gravity="right" android:textColor="@color/blau"
+			android:textStyle="bold"></TextView>
+	</FrameLayout>
+	<FrameLayout android:layout_width="match_parent"
+		android:id="@+id/spielbereich" android:layout_weight="1"
+		android:layout_height="wrap_content" android:layout_gravity="left|top">
+	</FrameLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="match_parent" android:id="@+id/linearLayout1"
+		android:orientation="vertical" android:layout_gravity="bottom"
+		android:gravity="bottom" android:layout_weight="0">
+		<FrameLayout android:id="@+id/frameLayout2"
+			android:layout_height="wrap_content" android:layout_width="match_parent">
+			<FrameLayout android:id="@+id/bar_hits"
+				android:background="@color/gruen" android:layout_width="50dip"
+				android:layout_height="5dip" android:layout_gravity="center_vertical"></FrameLayout>
+			<TextView android:layout_height="wrap_content" android:text="TextView"
+				android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_gravity="right" android:id="@+id/hits"
+				android:textColor="@color/gruen"></TextView>
+		</FrameLayout>
+		<FrameLayout android:id="@+id/frameLayout3"
+			android:layout_height="match_parent" android:layout_width="match_parent">
+			<FrameLayout android:id="@+id/bar_time"
+				android:layout_width="80dp" android:layout_height="5dp"
+				android:background="@color/rot" android:layout_gravity="center_vertical"></FrameLayout>
+			<TextView android:layout_height="wrap_content" android:text="TextView"
+				android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_gravity="right" android:id="@+id/time"
+				android:textColor="@color/rot"></TextView>
+		</FrameLayout>
+	</LinearLayout>
+
+</LinearLayout>

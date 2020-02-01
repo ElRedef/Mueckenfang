@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="gelb">#ffcc00</color>
+<color name="blau">#6688ee</color>
+<color name="rot">#ee2200</color>
+<color name="gruen">#00ff22</color>
+<color name="schwarz">#000000</color>
+<color name="weiss">#ffffff</color>
+<color name="transgelb">#88ffcc00</color>
+<color name="transgrau">#88888888</color>
+</resources>
+

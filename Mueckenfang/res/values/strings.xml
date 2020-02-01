@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mueckenfang</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Kugel Käfer Killen</string>
+    <string name="Wilkommen">Willkommen beim Mueckenfang</string>
+    <string name="start">Start</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="gameover">Game Over</string>
+    <string name="title_activity_runden_anzeiger">RundenAnzeiger</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ergebnis_anzeiger">ErgebnisAnzeigerActivity</string>
+
+</resources>
